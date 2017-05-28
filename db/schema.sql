@@ -9,7 +9,7 @@ USE burgers_db; --local db
 
 
 --COMMON for local and Heroku
-CREATE TABLE burgers
+CREATE TABLE Burgers
 (
 	id int AUTO_INCREMENT,
 	burger_name varchar(255) NOT NULL,
